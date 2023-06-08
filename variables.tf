@@ -22,7 +22,7 @@ variable "ami_filter" {
 variable "environment"{
   description = "Development Environment"
 
-  tryoe= object(
+  type = object(
     {
       name           = string
       network_prefix = string
